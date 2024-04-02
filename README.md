@@ -51,12 +51,15 @@ assign F1=x1|x2|x3|x4|x5;
 assign F2=x6|x7|x8|x9|x10;
 endmodule
 # Truth Table:
+![222](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/9d9891ce-3f23-4923-ab18-cbece04839a5)
+
 ![11](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/b5bd1369-6822-4cfc-8a33-3b98f766ccd5)
 
 
 
 # RTL realization:
-![r](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/848ccd4b-f95d-428b-9482-1e372e54f354)
+![R](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/4e4c70c5-b02e-486b-8490-73cc72e3c23d)
+
 
 **Logic Diagram**
 # Output:
@@ -64,7 +67,6 @@ endmodule
 
 
 
-# Timing Diagram:
 
 # Result:
 
