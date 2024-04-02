@@ -1,6 +1,7 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
-
-**AIM:**
+# Developed by:JAYASEELAN U
+# RegisterNumber:212223220039
+# AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -8,15 +9,15 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-**Equipment Required:**
+# Equipment Required:
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
+Software – Quartus prime
 
 **Theory**
 
-**Logic Diagram**
+
 
 **Procedure**
 
@@ -32,21 +33,40 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
+input A,B,C,D,W,X,Y,Z;
+wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+output F1,F2;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign x6=(X)&(~Y)&(Z);
+assign x7=(~X)&(~Y)&(Z);
+assign x8=(~W)&(X)&(Y);
+assign x9=(W)&(~X)&(Y);
+assign x10=(W)&(X)&(Y);
+assign F1=x1|x2|x3|x4|x5;
+assign F2=x6|x7|x8|x9|x10;
+endmodule
+# Truth Table:
+![11](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/b5bd1369-6822-4cfc-8a33-3b98f766ccd5)
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
 
 
-**RTL realization**
+# RTL realization:
+![r](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/848ccd4b-f95d-428b-9482-1e372e54f354)
 
-**Output:**
+**Logic Diagram**
+# Output:
+![diagram](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/0bc3999d-98c1-42a6-99f4-8acd5c248fa7)
 
-**RTL**
 
-**Timing Diagram**
 
-**Result:**
+# Timing Diagram:
+
+# Result:
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
