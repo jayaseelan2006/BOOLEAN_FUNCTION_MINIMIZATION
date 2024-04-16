@@ -74,7 +74,7 @@ or(f1,p,q,r);
 
 **Logic Diagram**
 # Output:
-![diagram](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/0bc3999d-98c1-42a6-99f4-8acd5c248fa7)
+![Screenshot 2024-04-16 095855](https://github.com/jayaseelan2006/BOOLEAN_FUNCTION_MINIMIZATION/assets/151389443/b2d0b8d3-25ce-4931-819a-3693a6ad27ba)
 
 
 
